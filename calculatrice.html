@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice | Nidhal</title>
+    <script src="calculatrice.js"></script>
+    <link rel="stylesheet" href="calculatrice.css">
+</head>
+<body>
+    <h1>Calculatrice</h1>
+    <main>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>My Calculator</legend>
+                    
+                    <label for="a">a: </label>
+                    <input type="text" id="a">
+                    <br><br>
+
+                    <label for="b">b: </label>
+                    <input type="text" id="b">
+                    <br><br>
+
+                    <div class="cal">
+                        <label><input type="radio" name="cal" value="+"> +</label>
+                        <label><input type="radio" name="cal" value="-"> -</label>
+                        <label><input type="radio" name="cal" value="*"> *</label>
+                        <label><input type="radio" name="cal" value="/"> /</label>
+                    </div>
+
+                    <button type="button" onclick="calcul()">Calculer</button>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <article>
+        <div class="left">
+            <p id="res"></p>
+        </div>
+    </article>
+    
+</body>
+</html>
